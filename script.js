@@ -3,5 +3,5 @@ var animation = bodymovin.loadAnimation({
 	renderer: 'svg',
 	loop: false,
 	autoplay: true,
-	path: 'animation1.json',
+	path: 'https://raw.githubusercontent.com/Bazoogle/live-alert-anim/master/animation1.json',
 })

@@ -10,7 +10,7 @@ var text1 = "Bouncing text";
 
 test_demo_data.layers[1].t.d.k[0].s.t = text1;
 
-var animation = bodymovin.loadAnimation({
+var animation = lottie.loadAnimation({
 	container: document.getElementById('anim'),
 	renderer: 'svg',
 	loop: true,

@@ -1,3 +1,4 @@
+console.log("It worked");
 var subscribe1 = {
   "v": "5.4.4",
   "fr": 59.9400024414063,

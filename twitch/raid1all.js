@@ -5,7 +5,7 @@ var text1 = name.toUpperCase();
 var amount = document.getElementById('amount').innerHTML;
 
             
-raid1.layers[0].t.d.k[0].s.t = "\r"+text2;
+raid1.layers[0].t.d.k[0].s.t = "\r"+amount;
 raid1.layers[2].t.d.k[0].s.t = text1;
 
 var animation = lottie.loadAnimation({

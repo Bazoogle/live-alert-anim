@@ -33,9 +33,9 @@ if (gifter != null) {
 } else {
 
   subscribe.layers[2].t.d.k[0].s.t = nameU;
-  subscribe.layers[5].t.d.k[0].s.t = months.toString();
    
   if (document.getElementById('months') != null) {
+    subscribe.layers[5].t.d.k[0].s.t = months.toString();
   if (months == 1) {
     subscribe.layers[4].t.d.k[0].s.t = "MONTH";
   } else {

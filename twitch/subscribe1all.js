@@ -20,6 +20,7 @@ if (gifter.length()>= 1) {
     progressiveLoad: false
   },
   animationData: subscribeGift,
+  });
    
 } else {
 
@@ -28,7 +29,7 @@ if (gifter.length()>= 1) {
   if (months == 1) {
     subscribe.layers[4].t.d.k[0].s.t = "MONTH";
   } else {
-    subscribe.layers[4].t.d.k[0].s.t = "MONTHS"
+    subscribe.layers[4].t.d.k[0].s.t = "MONTHS";
   }
   
   var animation = lottie.loadAnimation({
@@ -40,4 +41,5 @@ if (gifter.length()>= 1) {
     progressiveLoad: false
   },
   animationData: subscribe,
+  });
 }

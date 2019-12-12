@@ -8,6 +8,7 @@ if (document.getElementById('months').innerHTML; != null) {
    var months =  document.getElementById('months').innerHTML;
 }
 
+
 if (gifter != null) {
    var gifterU =  gifter.toUpperCase();
    

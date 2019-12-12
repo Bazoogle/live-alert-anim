@@ -4,10 +4,11 @@ var subscribeGift = {"v":"5.5.9","fr":59.9400024414063,"ip":0,"op":540.000021994
 var name =  document.getElementById('name').innerHTML;
 var nameU = name.toUpperCase();
 var gifter =  document.getElementById('gifter').innerHTML;
-var gifterU =  gifter.toUpperCase();
 var months =  document.getElementById('months').innerHTML;
 
 if (gifter.length()>= 1) {
+   var gifterU =  gifter.toUpperCase();
+   
    subscribeGift.layers[4].t.d.k[0].s.t = nameU;
    subscribeGift.layers[2].t.d.k[0].s.t = gifterU;
    

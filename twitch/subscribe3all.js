@@ -4,7 +4,9 @@ var subscribeGift = {"v":"5.5.9","fr":59.9400024414063,"ip":0,"op":540.000021994
 var name =  document.getElementById('name').innerHTML;
 var nameU = name.toUpperCase();
 var gifter =  document.getElementById('gifter').innerHTML;
-var months =  document.getElementById('months').innerHTML;
+if (document.getElementById('months').innerHTML; != null) {
+   var months =  document.getElementById('months').innerHTML;
+}
 
 if (gifter != null) {
    var gifterU =  gifter.toUpperCase();
@@ -27,10 +29,13 @@ if (gifter != null) {
 
   subscribe.layers[2].t.d.k[0].s.t = nameU;
   subscribe.layers[5].t.d.k[0].s.t = months.toString();
+   
+  if (document.getElementById('months').innerHTML; != null) {
   if (months == 1) {
     subscribe.layers[4].t.d.k[0].s.t = "MONTH";
   } else {
     subscribe.layers[4].t.d.k[0].s.t = "MONTHS";
+  }
   }
   
   var animation = lottie.loadAnimation({

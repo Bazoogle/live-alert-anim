@@ -6,7 +6,7 @@ var nameU = name.toUpperCase();
 var gifter =  document.getElementById('gifter').innerHTML;
 var months =  document.getElementById('months').innerHTML;
 
-if (gifter.length()>= 1) {
+if (gifter != null) {
    var gifterU =  gifter.toUpperCase();
    
    subscribeGift.layers[4].t.d.k[0].s.t = nameU;

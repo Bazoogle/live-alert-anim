@@ -13,7 +13,7 @@ if (document.getElementById('months') != null) {
 }
 
 
-if (gifter != null && gifter.length() > 0) {
+if (gifter != null && gifter.length > 0) {
    var gifterU =  gifter.toUpperCase();
    
    subscribeGift.layers[4].t.d.k[0].s.t = nameU;

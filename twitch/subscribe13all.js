@@ -29,6 +29,7 @@ if (gifter != null) {
   },
   animationData: subscribeGift,
   });
+   console.log("Gifted Sub Worked");
    
 } else {
 
@@ -53,4 +54,6 @@ if (gifter != null) {
   },
   animationData: subscribe,
   });
+   
+   console.log("Sub Worked");
 }

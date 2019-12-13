@@ -45,6 +45,7 @@ if (gifter != null && gifter.length > 0) {
       subscribe.layers[4].t.d.k[0].s.t = "MONTHS";
    }
   }
+  }
   
   var animation = lottie.loadAnimation({
     container: document.getElementById('anim'),

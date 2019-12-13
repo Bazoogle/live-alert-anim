@@ -36,6 +36,7 @@ if (gifter != null && gifter.length > 0) {
   subscribe.layers[2].t.d.k[0].s.t = nameU;
   
   if (document.getElementById('months') != null) {
+    subscribe.layers[5].t.d.k[0].s.t = months;
     if([1, 21,31,41,51,61,71,81,91,101,121,131,141,151,161,171,181].indexOf(Number(months)) > -1) {
        subscribe.layers[6].t.d.k[0].s.t = "ST";
      } else if ([2,22,32,42,52,62,72,82,92,102,122,132,142,152,162,172,182].indexOf(Number(months)) > -1) {

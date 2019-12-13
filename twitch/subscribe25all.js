@@ -36,9 +36,9 @@ if (gifter != null && gifter.length > 0) {
   subscribe.layers[2].t.d.k[0].s.t = nameU;
   
   if (document.getElementById('months') != null) {
-    subscribe.layers[5].t.d.k[0].s.t = months.toString();
+    subscribe.layers[5].t.d.k[0].s.t = months;
   if (months.length > 0) {
-     subscribe.layers[3].t.d.k[0].s.t = 'subscribed por'.toUpperCase();
+     subscribe.layers[3].t.d.k[0].s.t = 'subscribed blah blah'.toUpperCase();
    if (Number(months) == 1) {
       subscribe.layers[4].t.d.k[0].s.t = "MONTH";
    } else {

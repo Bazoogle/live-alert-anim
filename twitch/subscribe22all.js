@@ -38,7 +38,7 @@ if (gifter != null && gifter.length > 0) {
   if (document.getElementById('months') != null) {
     subscribe.layers[5].t.d.k[0].s.t = months.toString();
   if (months.length > 0) {
-     subscribe.layers[3].t.d.k[0].s.t = "SUBSCRIBED FFOR";
+     subscribe.layers[3].t.d.k[0].s.t = "subscribed for".toUpperCase();
    if (months == 1) {
       subscribe.layers[4].t.d.k[0].s.t = "MONTH";
    } else {

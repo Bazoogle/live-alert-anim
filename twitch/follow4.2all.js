@@ -20,7 +20,7 @@ if (!follow1) {
 var name =  document.getElementById('name').innerHTML
 var text1 = name.toUpperCase();
 
-follow1.layers[3].t.d.k[0].s.t = "MMMMMMMMMMMMMMM";
+follow1.layers[3].t.d.k[0].s.t = "M";
 
 var animation = lottie.loadAnimation({
 	container: document.getElementById('anim'),

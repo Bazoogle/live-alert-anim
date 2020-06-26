@@ -18,7 +18,7 @@ var follow1 = {"v":"5.6.10","fr":60,"ip":0,"op":600,"w":1920,"h":1080,"nm":"Foll
 var name =  document.getElementById('name').innerHTML
 var text1 = name.toUpperCase();
 
-follow1.layers[6].t.d.k[0].s.t = text1;
+follow1.layers[4].t.d.k[0].s.t = text1;
 
 var animation = lottie.loadAnimation({
 	container: document.getElementById('anim'),

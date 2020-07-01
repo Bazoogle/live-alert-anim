@@ -21,12 +21,12 @@ var text1 = name.toUpperCase();
 host1.layers[4].t.d.k[0].s.t = text1;
 
 var animation = lottie.loadAnimation({
-container: document.getElementById('anim'),
-renderer: 'svg',
-loop: false,
-autoplay: true,
-rendererSettings: {
-progressiveLoad: false
-},
-animationData: host1,
+	container: document.getElementById('anim'),
+	renderer: 'svg',
+	loop: false,
+	autoplay: true,
+	rendererSettings: {
+	progressiveLoad: false
+	},
+		animationData: host1,
 });

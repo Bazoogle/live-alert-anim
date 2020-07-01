@@ -48,7 +48,7 @@ if (gifter != null && gifter.length > 0) {
    
 } else {
 
-  subscribe.layers[6].t.d.k[0].s.t = nameU;
+  subscribe.layers[7].t.d.k[0].s.t = nameU;
   
   if (document.getElementById('months') != null) {
     subscribe.layers[0].t.d.k[0].s.t = months;

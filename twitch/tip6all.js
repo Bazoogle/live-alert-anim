@@ -22,7 +22,7 @@ var amount2 = parseInt(amount);
 var amount3 = amount2.toFixed(2);
 var amountFinal = "$"+amount3;
 
-console.log("Amount2: "+amount2+"Amount3: "+amount3)
+console.log("Amount: "+amount+"Amount2: "+amount2+"Amount3: "+amount3)
 
 tip1.layers[5].t.d.k[0].s.t = text1;
 tip1.layers[3].t.d.k[0].s.t = amountFinal;

@@ -18,8 +18,8 @@ var tip1 = {"v":"5.7.6","fr":60,"ip":0,"op":990,"w":1920,"h":1080,"nm":"Donation
 var name =  document.getElementById('name').innerHTML;
 var text1 = name.toUpperCase();
 var amount =  document.getElementById('amount').innerHTML;
-var amount2 = parseInt(amount);
-var amount3 = amount2.toFixed(2);
+var amount2 = amount.replace("$", "");
+var amount3 = parseInt(amount2).toFixed(2);
 var amountFinal = "$"+amount3;
 
 console.log("Amount: "+amount+"Amount2: "+amount2+"Amount3: "+amount3)
